@@ -1,0 +1,57 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,200&display=swap');
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline{
+display: inline;
+padding: 0rem 0.5rem;
+}
+.nav-bar{
+    background-color:#374151;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.nav-bar .nav-pills{
+    text-align: right;
+}
+.nav-bar .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nav-bar .link{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar .link-active{
+    font-weight: bold;
+}
+.myform{
+    width: 45vw;
+    height: 42.5vw;
+    margin-left: 54.5vw;
+    border:1px solid black;
+    background-color: white;
+    padding: 1vw;
+}
+.myform .form-h{
+    font-size: 4vw;
+    text-align: center;
+    color: #7C3AED;
+}
+hr{
+    opacity: 0.3;
+    color: black;
+}
+
