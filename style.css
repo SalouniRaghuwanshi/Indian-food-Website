@@ -39,9 +39,8 @@ padding: 0rem 0.5rem;
 }
 .myform{
     width: 45vw;
-    height: 42.5vw;
     margin-left: 54.5vw;
-    border:1px solid black;
+    height: 42vw;
     background-color: white;
     padding: 1vw;
 }
@@ -52,6 +51,42 @@ padding: 0rem 0.5rem;
 }
 hr{
     opacity: 0.3;
+    color: black;
+   margin-top: 2vw;
+}
+.c1{
+    padding-left: 6vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+}
+.user{
+    font-size: 2.5vw;
+    padding-top: 1vw;
+}
+.b1{
+    margin-top: 1vw;
+    width: 31vw;
+    height: 3vw;
+    font-size: 1.3vw;
+}
+
+.pass{
+    font-size: 1.2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.btn{
+    height: 3vw;
+    width: 31vw;
+    font-size: 1.4vw;
+    background-color: #F87171;
+    color: white;
+   margin-top: 1vw;
+}
+
+.btn:hover{
+    background-color: #60A5FA;
     color: black;
 }
 
